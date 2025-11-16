@@ -1,0 +1,93 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="512" cy="512" r="480" fill="url(#backgroundGradient)" stroke="#E5E7EB" stroke-width="8"/>
+  
+  <!-- AI Neural Network Pattern -->
+  <g opacity="0.3">
+    <circle cx="300" cy="400" r="8" fill="#4F46E5"/>
+    <circle cx="400" cy="350" r="8" fill="#4F46E5"/>
+    <circle cx="500" cy="400" r="8" fill="#4F46E5"/>
+    <circle cx="600" cy="350" r="8" fill="#4F46E5"/>
+    <circle cx="700" cy="400" r="8" fill="#4F46E5"/>
+    <circle cx="350" cy="500" r="8" fill="#4F46E5"/>
+    <circle cx="450" cy="450" r="8" fill="#4F46E5"/>
+    <circle cx="550" cy="500" r="8" fill="#4F46E5"/>
+    <circle cx="650" cy="450" r="8" fill="#4F46E5"/>
+    <circle cx="400" cy="600" r="8" fill="#4F46E5"/>
+    <circle cx="500" cy="650" r="8" fill="#4F46E5"/>
+    <circle cx="600" cy="600" r="8" fill="#4F46E5"/>
+    
+    <!-- Connecting lines -->
+    <line x1="300" y1="400" x2="400" y2="350" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+    <line x1="400" y1="350" x2="500" y2="400" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+    <line x1="500" y1="400" x2="600" y2="350" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+    <line x1="600" y1="350" x2="700" y2="400" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+    <line x1="350" y1="500" x2="450" y2="450" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+    <line x1="450" y1="450" x2="550" y2="500" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+    <line x1="550" y1="500" x2="650" y2="450" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+    <line x1="400" y1="600" x2="500" y2="650" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+    <line x1="500" y1="650" x2="600" y2="600" stroke="#4F46E5" stroke-width="2" opacity="0.5"/>
+  </g>
+  
+  <!-- Central Skin Analysis Icon -->
+  <g transform="translate(512, 512)">
+    <!-- Face outline -->
+    <path d="M-120 -80 C-120 -120, -80 -150, 0 -150 C80 -150, 120 -120, 120 -80 C120 -40, 140 -20, 140 20 C140 60, 120 100, 80 120 C40 140, -40 140, -80 120 C-120 100, -140 60, -140 20 C-140 -20, -120 -40, -120 -80 Z" 
+          fill="url(#skinGradient)" stroke="#F59E0B" stroke-width="6"/>
+    
+    <!-- Camera lens (representing AI analysis) -->
+    <circle cx="0" cy="0" r="60" fill="url(#lensGradient)" stroke="#1F2937" stroke-width="4"/>
+    <circle cx="0" cy="0" r="40" fill="url(#innerLensGradient)" stroke="#374151" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="#1F2937"/>
+    
+    <!-- Analysis rays -->
+    <g opacity="0.7">
+      <line x1="0" y1="-80" x2="0" y2="-60" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      <line x1="56.57" y1="-56.57" x2="42.43" y2="-42.43" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      <line x1="80" y1="0" x2="60" y2="0" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      <line x1="56.57" y1="56.57" x2="42.43" y2="42.43" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      <line x1="0" y1="80" x2="0" y2="60" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-56.57" y1="56.57" x2="-42.43" y2="42.43" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-80" y1="0" x2="-60" y2="0" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-56.57" y1="-56.57" x2="-42.43" y2="-42.43" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- AI Sparkles -->
+    <g opacity="0.8">
+      <path d="M-180 -100 L-175 -85 L-190 -90 L-180 -75 L-165 -85 Z" fill="#FBBF24"/>
+      <path d="M180 -120 L185 -105 L170 -110 L180 -95 L195 -105 Z" fill="#FBBF24"/>
+      <path d="M-160 140 L-155 155 L-170 150 L-160 165 L-145 155 Z" fill="#FBBF24"/>
+    </g>
+  </g>
+  
+  <!-- Medical cross (representing clinical use) -->
+  <g transform="translate(800, 200)" opacity="0.9">
+    <rect x="-30" y="-10" width="60" height="20" rx="4" fill="#EF4444"/>
+    <rect x="-10" y="-30" width="20" height="60" rx="4" fill="#EF4444"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#EF4444" stroke-width="3" opacity="0.5"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEF3C7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FDE68A;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="lensGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:0.9" />
+      <stop offset="70%" style="stop-color:#3B82F6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:0.7" />
+    </radialGradient>
+    
+    <radialGradient id="innerLensGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#93C5FD;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#60A5FA;stop-opacity:0.6" />
+    </radialGradient>
+  </defs>
+</svg>

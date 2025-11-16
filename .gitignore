@@ -1,0 +1,123 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Firebase configuration files - DO NOT COMMIT THESE
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/firebase_options.dart
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Flutter specific
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+
+# Test coverage
+coverage/
+
+# Flutter analyze
+dart_analyze_output.txt
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+
+# Local configuration
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+key.properties
+
+# Proguard
+proguard-rules.pro
+
+# Flutter build outputs
+flutter_export_environment.sh
+.flutter-plugins-dependencies
+
+# Firebase emulators
+firebase-debug.log
+ui-debug.log
+firestore-debug.log
+pubsub-debug.log
+firebase-export/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (if using Firebase Functions)
+node_modules/
+
+# Firebase Functions
+/functions/lib/
+/functions/node_modules/
