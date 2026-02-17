@@ -252,6 +252,12 @@ flutter build web --release
 - **Machine Learning**: On-device AI processing
 - **Cloud Functions**: Server-side processing
 
+## 📋 Changelog
+
+### Recent Updates
+- **2026-02-17**: Documentation refresh and roadmap alignment with Adastra BCV ecosystem
+- Project status: Active development | Maintained by Adastra BCV team
+
 ## 🤝 Contributing
 
 1. Fork the repository
